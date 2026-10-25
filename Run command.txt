@@ -1,0 +1,7 @@
+backend - uvicorn main:app --reload
+
+mcp-server - npx -y @modelcontextprotocol/inspector
+
+ai-client - python -u app.py
+
+frontend - npm run dev
