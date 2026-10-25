@@ -1,43 +1,17 @@
-
-# Environment variables and secrets
-.env
-.env.*
-!.env.example
-!.env.*.example
-
-# Node.js dependencies
-node_modules/
-
-# Next.js generated files
-.next/
-out/
-.turbo/
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/.next/
+frontend/out/
 
 # Python virtual environments
 venv/
 .venv/
-env/
+backend/venv/
+ai-client/venv/
+mcp-server/venv/
 
-# Python cache and compiled files
-__pycache__/
-*.py[cod]
-.pytest_cache/
-
-# Local IDE and operating system files
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-npm-debug.log*
-
-# Build outputs
-build/
-dist/
-
-# Local coverage and test artifacts
-coverage/
-htmlcov/
-.coverage
+# Secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
